@@ -21,7 +21,7 @@ git commit -am "Save before ejecting"
 ```sh
 rm -rf ~/.git
 ```
-### 2. Bug(Error problem while installing rect-redux)
+### 2. Bug(Error while installing react-redux)
 #### These type of error may be triggered
 ```sh
 * __WEBPACK_IMPORTED_MODULE_4_react___default.a.memo is not a function
