@@ -21,5 +21,18 @@ git commit -am "Save before ejecting"
 ```sh
 rm -rf ~/.git
 ```
+### 2. Bug(Error problem while installing rect-redux)
+#### These type of error may be triggered
+```sh
+* __WEBPACK_IMPORTED_MODULE_4_react___default.a.memo is not a function
+* TypeError: Object(...) is not a function
+* TypeError: __WEBPACK_IMPORTED_MODULE_0_react___default.a.createContext is not a function
+```
+#### Solution
+```sh
+npm install --save react@16.6.0 react-dom@16.6.0
+npm install --save react-redux@5.1.1
+```
+
 
 
